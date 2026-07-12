@@ -259,6 +259,6 @@ def run_dataset(n=500, depth=5, out="branch_dataset.jsonl"):
             fp.write(json.dumps(row, ensure_ascii=False)+"\n")
     return len(all_logs)
 
-if name == "main":
+if __name__ == "__main__":
     count=run_dataset()
     print("saved records:", count)
