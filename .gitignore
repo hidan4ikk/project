@@ -216,3 +216,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Генерируемые файлы проекта — не храним в репозитории,
+# они создаются заново командами из README (solver.py, ml.py)
+branch_dataset.jsonl
+*.pkl
